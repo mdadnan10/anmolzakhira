@@ -1,0 +1,182 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap'); */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eff0f4;
+}
+
+nav {
+    height: 56px;
+    width: 100%;
+    background-color: #4285f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo_enlish {
+    color: white;
+    font-size: 48px;
+}
+
+#divider {
+    color: white;
+    font-size: 48px;
+}
+
+#logo_urdu {
+    color: white;
+    font-size: 48px;
+}
+
+.intro {
+    font-size: 20px;
+    padding: 15px;
+    line-height: 1.3;
+}
+
+.main_wrapper {
+    padding: 15px;
+    grid-gap: 60px 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-rows: repeat(2, 420px);
+}
+
+.card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 2px #bbb;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+
+footer {
+    margin-top: 55px;
+    background-color: #4285f4;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#author {
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+#author a {
+    color: white;
+    font-size: 20px;
+}
+
+#copyright {
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+@media(max-width: 920px) {
+    #logo_enlish {
+        color: white;
+        font-size: 44px;
+    }
+
+    #logo_urdu {
+        color: white;
+        font-size: 44px;
+    }
+
+    .intro {
+        font-size: 20px;
+        padding: 15px;
+    }
+}
+
+@media(max-width: 720px) {
+    #logo_enlish {
+        color: white;
+        font-size: 34px;
+    }
+
+    #logo_urdu {
+        color: white;
+        font-size: 34px;
+    }
+
+    .intro {
+        font-size: 20px;
+        padding: 12px;
+    }
+
+    .desc {
+        font-size: 22px;
+    }
+
+
+    #author {
+        font-size: 20px;
+    }
+
+    #author a {
+        font-size: 20px;
+    }
+
+    #copyright {
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 470px) {
+    #logo_enlish {
+        color: white;
+        font-size: 26px;
+    }
+
+    #logo_urdu {
+        color: white;
+        font-size: 26px;
+    }
+
+    .intro {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+
+    #author {
+        font-size: 16px;
+    }
+
+    #author a {
+        font-size: 16px;
+    }
+
+    #copyright {
+        font-size: 12px;
+    }
+
+}
