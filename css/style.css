@@ -109,6 +109,10 @@ footer {
         font-size: 20px;
         padding: 15px;
     }
+
+    .main_wrapper {
+        grid-template-rows: repeat(3, 420px);
+    }
 }
 
 @media(max-width: 720px) {
@@ -127,10 +131,13 @@ footer {
         padding: 12px;
     }
 
+    .main_wrapper {
+        grid-template-rows: repeat(3, 420px);
+    }
+
     .desc {
         font-size: 22px;
     }
-
 
     #author {
         font-size: 20px;
@@ -146,7 +153,14 @@ footer {
 
 }
 
+@media(max-width: 620px) {
+    .main_wrapper {
+        grid-template-rows: repeat(5, 470px);
+    }
+}
+
 @media(max-width: 470px) {
+
     #logo_enlish {
         color: white;
         font-size: 26px;
@@ -160,6 +174,10 @@ footer {
     .intro {
         font-size: 18px;
         padding: 12px;
+    }
+
+    .main_wrapper {
+        grid-template-rows: repeat(5, 420px);
     }
 
     .desc {
