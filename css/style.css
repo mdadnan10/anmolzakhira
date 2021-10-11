@@ -34,20 +34,43 @@ nav {
 }
 
 .intro {
-    font-size: 20px;
+    /* font-size: 20px; */
     padding: 15px;
     margin-top: 5px;
 }
 
-#bismillah{
+.summary {
+    border-radius: 10px;
+    padding: 3px;
     text-align: center;
+    box-shadow: 3px 3px 12px #a89f9f;
 }
 
-#lastIntro {
+.summary p {
+    font-size: 18px;
+}
+
+.sumImg {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sumImg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px #a89f9f;
+}
+
+/* #bismillah{
+    text-align: center;
+} */
+
+/* #lastIntro {
     float: right;
-}
+} */
 
-hr{
+hr {
     margin-top: 10px;
 }
 
@@ -60,23 +83,24 @@ hr{
     grid-template-rows: repeat(2, 420px);
 }
 
-.card {
+.desc {
     border-radius: 10px;
-    box-shadow: 5px 5px 15px #a89f9f;
+    padding: 3px;
+    background-color: white;
     text-align: center;
+    box-shadow: 3px 3px 12px #a89f9f;
+}
+
+.desc p {
+    font-size: 18px;
 }
 
 .card img {
     height: 92.7%;
     width: 100%;
     margin-top: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.desc {
-    font-size: 18px;
-    height: 100px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px #a89f9f;
 }
 
 footer {
@@ -143,16 +167,20 @@ footer {
         grid-template-rows: repeat(3, 420px);
     }
 
-    .card img {
+    .cardImg img {
         height: 92.6%;
     }
 
-    .desc {
-        font-size: 20px;
+    .summary p {
+        font-size: 18px;
+    }
+
+    .desc p {
+        font-size: 18px;
     }
 
     #author {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #author a {
@@ -192,7 +220,11 @@ footer {
         grid-template-rows: repeat(5, 420px);
     }
 
-    .desc {
+    .summary p {
+        font-size: 16px;
+    }
+
+    .desc p {
         font-size: 16px;
     }
 
@@ -207,6 +239,48 @@ footer {
 
     #copyright {
         font-size: 12px;
+    }
+
+}
+
+@media (max-width: 340px) {
+    #logo_enlish {
+        font-size: 20px;
+    }
+
+    #logo_urdu {
+        font-size: 20px;
+    }
+
+    .intro {
+        /* font-size: 16px; */
+        padding: 10px;
+    }
+
+    .main_wrapper {
+        padding: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-rows: repeat(5, 420px);
+    }
+
+    .summary p {
+        font-size: 12px;
+    }
+
+    .desc p{
+        font-size: 12px;
+    }
+
+    #author {
+        font-size: 12px;
+    }
+
+    #author a {
+        font-size: 12px;
+    }
+
+    #copyright {
+        font-size: 10px;
     }
 
 }
@@ -232,7 +306,11 @@ footer {
         grid-template-rows: repeat(5, 420px);
     }
 
-    .desc {
+    .summary p {
+        font-size: 12px;
+    }
+
+    .desc p{
         font-size: 12px;
     }
 
